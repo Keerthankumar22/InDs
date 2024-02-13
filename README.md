@@ -10,19 +10,19 @@ This work introduces an intelligent embedding framework named InDs. It utilizes 
 - PyCharm Community Edition 2021.2. <br />
 - Alib utility tool for VNE simulation. <br />
 ## Installation
-Download the ALIB_Utility tool, unzip and copy it to the execution drive. <br />
+- Download the ALIB_Utility tool, unzip it, and copy it to the execution drive, creating a folder P3_ALIB_MASTER. <br />
 - Configure the alib by following the steps mentioned in the GitHub repository [1]. <br />
 - Generate the input. pickle file and save it in the P3_ALIB_MASTER\input path. <br />
 - Make sure "P3_ALIB_MASTER\input" path contain senario_RedBestel.pickle. If not, generate the substrate network scenario for "senario_RedBestel.pickle" in folder P3_ALIB_MASTER\input, and this pickle file contains substrate network information. <br />
-## Download  InDs Code; It has separate zip files: one is the Training folder (all_model_train.zip), and another one is for the Testing folder (all_model_train.zip)  and Unzip both keep it in the folder  P3_ALIB_MASTER.  
-- About all_model_train: This folder contains all the files responsible for training the proposed appraoch InDs and the A3C-GCN [] (a baseline appraoch).
+## Download  InDs Code; It has two separate folders: one is the Training folder (all_model_train), and another one is for the Testing folder (all_model_train),  and download  both keep it in the folder  P3_ALIB_MASTER.  
+- About all_model_train: This folder contains all the files responsible for training the proposed appraoch InDs and the A3C-GCN [4] (a baseline appraoch).
   The input parameters required for the training and the input environment (Virtual network requests and the substrate network) settings are described in the usage part below. 
 
 The  proposed work file contains all executable files related to the **proposed and baseline approaches**.
 - InDs.py -> The Main file related to the  **Proposed** **InDs** approach. <br />
 - Nrm.py -> The Main file related to the  **NRM** baseline approach [2]. <br />
 - Rethinking.py -> The Main file related to the  **DPGA** baseline approach [3]. <br />
--  gcn_rl_automatic.py -> The Main file related to the  **A3C-GCN** baseline approach [4]. <br />
+- gcn_rl_automatic.py -> The Main file related to the  **A3C-GCN** baseline approach [4]. <br />
 - greedy.py -> The Main file related to the  **VNE-MWF** baseline approach [5]. <br />
 
 
