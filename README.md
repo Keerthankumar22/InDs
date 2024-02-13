@@ -65,7 +65,7 @@ The  proposed work file contains all executable files related to the **proposed 
 
 - Run vne_p.py after doing any modifications. <br />
 
-###  In grpah_extraction_poission.py:<br />
+###  In grpah_extraction_uniform.py:<br />
 
 - In the get_graphs function, mention the pickle file related to substrate network generation. The same is available in the folder P3_ALIB_MASTER. EX: os.path.join( os.path.dirname(current), "P3_ALIB_MASTER", "input", "senario_RedBestel.pickle",)<br />
 
@@ -80,7 +80,7 @@ The  proposed work file contains all executable files related to the **proposed 
 
 ###  In the automate.py file, set the VNR size such as [250, 500, 750, 1000] and also mention the number of iterations needed to execute for each VNR size in the iteration variable.<br />
 
-- Finally, run the test_all.py file. After successfully running, a 1_poission.pickle and 1_poisson_vne.pickle file is created related to a new set of  SN and VNRs, respectively. (If it already does not exist in the specified path). It has all input parameters related to the substrate network parameters, such as CRB and bandwidth. <br />
+- Finally, run the test_all.py file. After successfully running, a 1_uniform.pickle and 1_poisson_vne.pickle file is created related to a new set of  SN and VNRs, respectively. (If it already does not exist in the specified path). It has all input parameters related to the substrate network parameters, such as CRB and bandwidth. <br />
 
 - Final embedding results are captured in Results.xlsx, which includes values for various metrics for all test scenarios for every iteration. <br />
 
